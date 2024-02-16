@@ -8,7 +8,7 @@ export default async function MoviePage({ params }) {
   const movie = await res.json();
 
   return (
-    <div className="w-full items-center ml-6">
+    <div className="w-full">
       <div className="p-4 md:pt-8 flex flex-col md:flex-row content-center max-w-6xl mx-auto md:space-x-6">
         <Image
           src={`https://image.tmdb.org/t/p/original/${
